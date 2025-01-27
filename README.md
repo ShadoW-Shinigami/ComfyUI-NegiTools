@@ -15,9 +15,9 @@
   The script will then automatically install all custom scripts and nodes.
   It will attempt to use symlinks and junctions to prevent having to copy files and keep them up to date.
 
-- To launch: Set the OPENAI_API_KEY environment variable before launching ComfyUI. 
+- To launch: Set the OPENAI_API_KEY environment variable AND ANTHROPIC_API_KEY before launching ComfyUI. 
 
-  e.g., OPENAI_API_KEY=sk-<...your API key here...> python3 main.py ...
+  e.g., OPENAI_API_KEY=sk-<...your API key here...> ANTHROPIC_API_KEY=sk-<...your API key here...> python3 main.py ...
 
 - For uninstallation:
   Delete the cloned repo in custom_nodes
