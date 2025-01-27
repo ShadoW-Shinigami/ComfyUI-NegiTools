@@ -13,6 +13,7 @@ from .negi.image_reader_writer import RandomImageLoader, SaveImageToDirectory
 from .negi.detect_face_rotation_for_inpainting import DetectFaceRotationForInpainting
 from .negi.openai_gpt4v import OpenAiGpt4v
 from .negi.openai_gpt import OpenAiGpt
+from .negi.anthropic_claude_vision import AnthropicClaudeVision
 
 NODE_CLASS_MAPPINGS = {
     "NegiTools_OpenAiDalle3": OpenAiDalle3,
@@ -31,6 +32,7 @@ NODE_CLASS_MAPPINGS = {
     "NegiTools_SaveImageToDirectory": SaveImageToDirectory,
     "NegiTools_DetectFaceRotationForInpainting": DetectFaceRotationForInpainting,
     "NegiTools_OpenAiGpt4v": OpenAiGpt4v,
+    "NegiTools_AnthropicClaudeVision": AnthropicClaudeVision,
     "NegiTools_OpenAiGpt": OpenAiGpt,
 }
 
@@ -51,5 +53,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "NegiTools_SaveImageToDirectory": "Save Image to Directory 🧅",
     "NegiTools_DetectFaceRotationForInpainting": "Detect Face Rotation for Inpainting 🧅",
     "NegiTools_OpenAiGpt4v": "OpenAI GPT4V 🧅",
+    "NegiTools_AnthropicClaudeVision": "Anthropic Claude Vision 🧅",
     "NegiTools_OpenAiGpt": "OpenAI GPT 🧅",
 }
